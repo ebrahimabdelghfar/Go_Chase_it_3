@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <node
+    pkg="ball_chaser"
+    type="drive"
+    name="drive" 
+    output="screen"
+  />
+  <node
+    pkg="ball_chaser"
+    type="image"
+    name="image"
+    output="screen"
+  />
+</launch>
